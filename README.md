@@ -3,7 +3,7 @@ A collection of useful, modular scripts, class modules, and modules that may be 
 
 ### 6/26/2022:
 
-## cSaveState.vb 
+## cSaveState.bas
 
     A script intended for use as a VBA class module. This class abstracts away the need to work with filesystem objects
     uses pipe-delimited lines of plain text to perform CRUD operations. Originally was designed to persist GUI object 
@@ -67,6 +67,6 @@ A collection of useful, modular scripts, class modules, and modules that may be 
             >> Checks if a file exists at the object's filepath, returns a Boolean (True Exists, False Does not Exist)
                 >  Use to avoid overwriting files constantly by making CreateFile optional based on file existance
     
-## TestFileIO 
+## TestFileIO.bas
 
     A script used to demonstrate and test the functionality of the cSaveState class module.
