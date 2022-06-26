@@ -29,6 +29,10 @@ End Property
 Public Property Let FilePath(ByVal value As String)
     fPath = value
 End Property
+                
+Public Function FileExists() As Boolean
+    FileExists = objFSO.FileExists(fPath)
+End Function
 
 Public Function CreateFile(Optional ByVal setting_ As String)
     
