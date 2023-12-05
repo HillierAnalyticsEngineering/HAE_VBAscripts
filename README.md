@@ -15,7 +15,7 @@ A collection of useful, modular scripts, class modules, and modules that may be 
     
     
     available properties:
-    
+
     .FilePath  
     
             >>  Set your own file path and extension
@@ -62,7 +62,7 @@ A collection of useful, modular scripts, class modules, and modules that may be 
                 >  modName_ could be a module name, a subprocedure name, or otherwise - use to identify tracked process
                 >  vals() are one or more strings - pass numeric values in using CStr(numeric)
                 
-      .FileExists()
+    .FileExists()
       
             >> Checks if a file exists at the object's filepath, returns a Boolean (True Exists, False Does not Exist)
                 >  Use to avoid overwriting files constantly by making CreateFile optional based on file existance
